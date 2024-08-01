@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="Tableau de Bord" />
+    <item
+        android:id="@+id/nav_add_plant"
+        android:title="Ajouter une nouvelle plante" />
+    <item
+        android:id="@+id/nav_inventory"
+        android:title="Accéder à l'inventaire" />
+    <item
+        android:id="@+id/nav_history"
+        android:title="Voir l'historique" />
+    <item
+        android:id="@+id/nav_archive"
+        android:title="Archive" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Déconnexion"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/nav_exit"
+        android:title="Exit"
+        android:orderInCategory="101" />
+</menu>

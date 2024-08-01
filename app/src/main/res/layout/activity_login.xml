@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/white_fixed" />
+
+    <!-- Container for inputs and button -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp">
+
+        <!-- Username input -->
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom D'utilisateur"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/edit_text_text"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Password input -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mot de passe"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/edit_text_text"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"/>
+
+        <!-- Login button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connexion"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button_black"
+            android:textColor="@color/button_text_color"/>
+
+        <!-- Forgot password link -->
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mot De Passe Oublié ?"
+            android:textColor="@color/black_fixed"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Register link -->
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inscription"
+            android:textColor="@color/black_fixed"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

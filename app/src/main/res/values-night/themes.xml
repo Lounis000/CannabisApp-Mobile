@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CannabisAppMobile" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your dark theme here -->
+        <item name="colorPrimary">@color/black_fixed</item>
+        <item name="colorPrimaryVariant">@color/black_fixed</item>
+        <item name="colorOnPrimary">@color/white_fixed</item>
+        <item name="android:textColor">@color/edit_text_text</item>
+        <item name="android:editTextBackground">@drawable/rounded_edittext</item>
+        <item name="android:buttonStyle">@style/BlackButton</item>
+    </style>
+
+    <!-- Custom style for the black button -->
+    <style name="BlackButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/rounded_button_black</item>
+        <item name="android:textColor">@color/white_fixed</item>
+    </style>
+</resources>

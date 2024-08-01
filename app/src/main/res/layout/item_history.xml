@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvPlantId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID de la plante"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvModifiedField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Champ modifié"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvOldValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ancienne valeur"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvNewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nouvelle valeur"
+        android:layout_marginBottom="4dp"/>
+</LinearLayout>

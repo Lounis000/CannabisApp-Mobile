@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Dynamic Title -->
+        <TextView
+            android:id="@+id/tvPlantID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Name -->
+        <TextView
+            android:id="@+id/tvPlantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom de la Plante"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Origin -->
+        <TextView
+            android:id="@+id/tvPlantOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Provenance"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Stage -->
+        <TextView
+            android:id="@+id/tvPlantStage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stade"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Storage -->
+        <TextView
+            android:id="@+id/tvPlantStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stockage"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Responsible -->
+        <TextView
+            android:id="@+id/tvPlantResponsible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Responsable"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Reason -->
+        <TextView
+            android:id="@+id/tvPlantReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raison"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Health Status (Color) -->
+        <View
+            android:id="@+id/vPlantHealthStatus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Plant Withdrawal Date -->
+        <TextView
+            android:id="@+id/tvPlantWithdrawalDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date de retrait"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Plant Note -->
+        <TextView
+            android:id="@+id/tvPlantNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- QR Code ImageView -->
+        <ImageView
+            android:id="@+id/ivQRCode"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:contentDescription="QR Code" />
+
+        <!-- Buttons for actions -->
+        <Button
+            android:id="@+id/btnModifyPlant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modifier ce produit"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button_black"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnRemovePlant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retirer ce produit"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button_black"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnPrint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imprimer"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button_black"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
